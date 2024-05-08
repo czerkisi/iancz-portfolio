@@ -51,7 +51,9 @@ jobs:
         run: npm run build
 
       - name: Copy from dist to build folder
-        run: cp -r dist/* build/
+        run: |
+          mkdir build
+          cp -r dist/* build/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
