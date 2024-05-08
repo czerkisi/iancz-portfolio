@@ -27,7 +27,7 @@ export default function NavBar(props: NavBarProps){
                 <PageLink title={'Portfolio'} relativeUrl={'/'} key={'portfolio-link'} children={[]} setShowProjectOverlay={props.setShowProjectOverlay}/>
                 <PageLink title={'Work'} key={'work'} children={pagesWithoutPortfolio} setShowProjectOverlay={props.setShowProjectOverlay}/>
                 <PageLink relativeUrl={'/about'} title={'About'} key={'about'} children={[]} setShowProjectOverlay={props.setShowProjectOverlay}/>
-                <a href={'https://www.linkedin.com/in/ryleigh-leon'} target="_blank" rel="noopener noreferrer">
+                <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
                     <img src={getIconImage('LinkedInBlack.png')} alt={'LinkedIn'} className={'social-icon'}/>
                 </a>
                 <a href={'https://github.com/czerkisi'} target="_blank" rel="noopener noreferrer">

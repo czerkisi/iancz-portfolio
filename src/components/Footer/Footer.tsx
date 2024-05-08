@@ -10,7 +10,7 @@ export default function Footer(){
             <span className={'footer-name'}>Ryleigh Leon</span>
             <a href='mailto:ryleighleon@gmail.com' className={'email'}>ryleighleon@gmail.com</a>
             <div className={'footer-socials'}>
-                <a href={'https://www.linkedin.com/in/ryleigh-leon'} target="_blank" rel="noopener noreferrer">
+                <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
                     <img src={getIconImage('LinkedInBlack.png')} alt={'LinkedIn'} className={'social-icon'}/>
                 </a>
                 <a href={'https://github.com/czerkisi'} target="_blank" rel="noopener noreferrer">

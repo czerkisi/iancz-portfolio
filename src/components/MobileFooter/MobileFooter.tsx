@@ -11,7 +11,7 @@ export default function MobileFooter(){
             <span className={'mobile-footer-name'}>Ryleigh Leon</span>
             <a href='mailto:ryleighleon@gmail.com' className={'mobile-email'}>ryleighleon@gmail.com</a>
             <div className={'mobile-footer-socials'}>
-                <a href={'https://www.linkedin.com/in/ryleigh-leon'} target="_blank" rel="noopener noreferrer">
+                <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
                     <img src={getIconImage('LinkedInBlack.png')} alt={'LinkedIn'} className={'mobile-footer-social-icon'}/>
                 </a>
                 <a href={'https://github.com/czerkisi'} target="_blank" rel="noopener noreferrer">

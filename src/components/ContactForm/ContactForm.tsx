@@ -49,7 +49,7 @@ export default function ContactForm() {
                 <span className={'contact-info-body'}>Interested in learning more about me, my work or how we can collaborate on an upcoming project? Feel free to reach out anytime, I would be more than happy to chat.</span>
                 <a href='mailto:ryleighleon@gmail.com' className={'contact-email'}>ryleighleon@gmail.com</a>
                 <div className={'contact-socials'}>
-                    <a href={'https://www.linkedin.com/in/ryleigh-leon'} target="_blank" rel="noopener noreferrer">
+                    <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
                         <img src={getIconImage(`LinkedInBlack.png`)} alt={'LinkedIn'} className={'social-icon'}/>
                     </a>
                     <a href={'https://github.com/czerkisi'} target="_blank" rel="noopener noreferrer">
