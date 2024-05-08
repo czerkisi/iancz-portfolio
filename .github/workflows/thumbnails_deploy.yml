@@ -50,14 +50,9 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Copy from dist to build folder
-        run: |
-          mkdir build
-          cp -r dist/* build/
-
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: $
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: dist
