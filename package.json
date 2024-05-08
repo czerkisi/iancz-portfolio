@@ -1,7 +1,6 @@
 {
   "name": "iancz-portfolio",
-  "homepage": "czerkisi.github.io/iancz-portfolio",
-  "private": true,
+  "homepage": "czerkisi.github.io/iancz-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
