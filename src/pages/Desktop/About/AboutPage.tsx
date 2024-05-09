@@ -1,5 +1,4 @@
 import './AboutPage.css';
-import ContactForm from "../../../components/ContactForm/ContactForm";
 import {getIconImage} from "../../App/fileFunctions.ts";
 
 export default function AboutPage(){
@@ -12,9 +11,6 @@ export default function AboutPage(){
                     <span className={'explore-text'}>Explore My Work</span>
                     <span className={'grab-snack-text'}>Grab a snack and stay awhile</span>
                 </div>
-            </div>
-            <div className={'contact-form-container'}>
-                <ContactForm/>
             </div>
         </div>
 
