@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 12px 30px;
-    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow below the .nav-bar */
+    box-shadow: 0 8px 4px rgba(55, 55, 55, 0.1); /* Adds a shadow below the .nav-bar */
 }
 
 
