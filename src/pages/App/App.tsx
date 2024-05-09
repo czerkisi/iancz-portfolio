@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {HashRouter as Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import './variables.css';
 import {useAppDispatch, useAppSelector} from "../../redux/hooks.ts";
@@ -24,7 +24,7 @@ function App() {
 
     useEffect(() => {
         const fetchPages = async () => {
-            const response = await fetch('media/pages.rld');
+            const response = await fetch('media/pages.icz');
             const data = await response.json();
             dispatch(setPages(data));
         }
@@ -53,7 +53,7 @@ function App() {
                     {pages.map((page, index) => <Route path={page.relativeLink} key={index} element={
                         <ProjectPage page={page} setShowProjectOverlay={setShowProjectOverlay} showProjectOverlay={showProjectOverlay}/>
                     }/>)}
-                    <Route path={'about'} Component={isMobile ? MobileAbout : AboutPage}/>
+                    <Route path={'/'} Component={isMobile ? MobileAbout : AboutPage}/>
                     {pagesLoading ?
                         <Route path={'*'} Component={LoadingPage}/>
                         :
