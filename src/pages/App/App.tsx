@@ -5,7 +5,7 @@ import './variables.css';
 import {useAppDispatch, useAppSelector} from "../../redux/hooks.ts";
 import {setPages} from "../../redux/slices/pages.ts";
 import MobileNavBar from "../../components/MobileNavBar/MobileNavBar.tsx";
-import ProjectPage from "../Desktop/Page/ProjectPage.tsx";
+import ProjectPage from "../Desktop/ProjectsPage/ProjectPage.tsx";
 import MobileAbout from "../Mobile/MobileAbout/MobileAbout.tsx";
 import AboutPage from "../Desktop/About/AboutPage.tsx";
 import NavBar from "../../components/NavBar/NavBar.tsx";

@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import {Project, ProjectSection} from "../../../redux/slices/pages";
 import './ProjectSectionPage.css';
 import ProjectTile from "../../../components/ProjectTile/ProjectTile";
-import ProjectOverlay from "../ProjectPage/ProjectOverlay";
+import ProjectOverlay from "../ProjectOverlay/ProjectOverlay";
 
 interface ProjectsPageProps {
     section: ProjectSection;

@@ -19,21 +19,27 @@ export default function NavBar(props: NavBarProps){
         props.setShowProjectOverlay(false);
     }
     return (
-        <div className={'nav-bar'}>
-            <div className={'nav-logo'} onClick={redirectHome}>
-                <img className={'logo-image'} src={getIconImage('Logofull.png')} alt={'logo'}/>
+        <div className={'nav-bar-container'}>
+            <div className={'nav-bar'}>
+                <div className={'nav-logo'} onClick={redirectHome}>
+                    <img className={'logo-image'} src={getIconImage('Logofull.png')} alt={'logo'}/>
+                </div>
+                <div className={'nav-links'}>
+                    <PageLink title={'Overview'} relativeUrl={'/'} key={'portfolio-link'} children={[]}
+                              setShowProjectOverlay={props.setShowProjectOverlay}/>
+                    <PageLink title={'Experience'} relativeUrl={'/experience'} key={'portfolio-link'} children={[]}
+                              setShowProjectOverlay={props.setShowProjectOverlay}/>
+                    <PageLink title={'Projects'} key={'work'} children={pagesWithoutPortfolio}
+                              setShowProjectOverlay={props.setShowProjectOverlay}/>
+                    <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
+                        <img src={getIconImage('LinkedInWhite.png')} alt={'LinkedIn'} className={'social-icon'}/>
+                    </a>
+                    <a href={'https://github.com/czerkisi'} target="_blank" rel="noopener noreferrer">
+                        <img src={getIconImage('githubWhite.png')} alt={'Github'} className={'social-icon'}/>
+                    </a>
+                </div>
             </div>
-            <div className={'nav-links'}>
-                <PageLink title={'Overview'} relativeUrl={'/'} key={'portfolio-link'} children={[]} setShowProjectOverlay={props.setShowProjectOverlay}/>
-                <PageLink title={'Experience'} relativeUrl={'/experience'} key={'portfolio-link'} children={[]} setShowProjectOverlay={props.setShowProjectOverlay}/>
-                <PageLink title={'Projects'} key={'work'} children={pagesWithoutPortfolio} setShowProjectOverlay={props.setShowProjectOverlay}/>
-                <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
-                    <img src={getIconImage('LinkedInWhite.png')} alt={'LinkedIn'} className={'social-icon'}/>
-                </a>
-                <a href={'https://github.com/czerkisi'} target="_blank" rel="noopener noreferrer">
-                    <img src={getIconImage('githubWhite.png')} alt={'Github'} className={'social-icon'}/>
-                </a>
-            </div>
+            <div className={'nav-bar-space-placeholder'}></div>
         </div>
     )
 }
