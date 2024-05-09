@@ -1,5 +1,5 @@
 .page-link-text {
-    color: #000000;
+    color: var(--white-text-color);
     text-decoration: none;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .selected-nav-link {
-    border-bottom: 5px solid var(--blueColor);
+    border-bottom: 5px solid var(--greenColor);
     padding-bottom: 3px;
 }
 

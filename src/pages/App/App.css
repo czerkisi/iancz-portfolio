@@ -1,5 +1,5 @@
 .app {
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .page {

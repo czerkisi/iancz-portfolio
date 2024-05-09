@@ -1,5 +1,5 @@
 .nav-bar {
-    background-color: white;
+    background-color: var(--background-color);
     width: 100%;
     box-sizing: border-box;
     display: flex;

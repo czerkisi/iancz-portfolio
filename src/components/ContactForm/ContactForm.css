@@ -51,8 +51,8 @@
 }
 
 .contact-container {
-    border-top: 5px solid var(--blueColor);
-    border-bottom: 5px solid var(--blueColor);
+    border-top: 5px solid var(--greenColor);
+    border-bottom: 5px solid var(--greenColor);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,7 +70,7 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    border-bottom: 3px solid var(--blueColor);;
+    border-bottom: 3px solid var(--greenColor);;
     background-color: transparent;
     color: var(--blackColor);
     height: 30px;
@@ -90,11 +90,11 @@
 }
 
 .contact-input:hover {
-    border: 3px solid var(--blueColor);
+    border: 3px solid var(--greenColor);
 }
 
 .contact-input:focus {
-    border: 3px solid var(--blueColor);
+    border: 3px solid var(--greenColor);
 }
 
 .contact-input-text-area {
@@ -111,7 +111,7 @@
     outline: none;
     background-color: var(--whiteColor);
     cursor: pointer;
-    border: 3px solid var(--blueColor);
+    border: 3px solid var(--greenColor);
     color: var(--blackColor);
 }
 

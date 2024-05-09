@@ -1,6 +1,6 @@
 .project-page-title {
     font-family: 'Old Standard TT', serif;
-    color: var(--greenColor);
+    color: var(--blueColor);
     font-size: 72px;
     max-width: 780px;
     text-align: center;
@@ -55,7 +55,7 @@
     font-family: var(--montserrat-font);
     font-weight: bold;
     font-size: 30px;
-    color: var(--greenColor);
+    color: var(--blueColor);
     margin-top: 40px;
     margin-bottom: 20px;
 }

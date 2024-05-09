@@ -28,10 +28,10 @@ export default function NavBar(props: NavBarProps){
                 <PageLink title={'Work'} key={'work'} children={pagesWithoutPortfolio} setShowProjectOverlay={props.setShowProjectOverlay}/>
                 <PageLink relativeUrl={'/about'} title={'About'} key={'about'} children={[]} setShowProjectOverlay={props.setShowProjectOverlay}/>
                 <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
-                    <img src={getIconImage('LinkedInBlack.png')} alt={'LinkedIn'} className={'social-icon'}/>
+                    <img src={getIconImage('LinkedInWhite.png')} alt={'LinkedIn'} className={'social-icon'}/>
                 </a>
                 <a href={'https://github.com/czerkisi'} target="_blank" rel="noopener noreferrer">
-                    <img src={getIconImage('githubBlack.png')} alt={'Github'} className={'social-icon'}/>
+                    <img src={getIconImage('githubWhite.png')} alt={'Github'} className={'social-icon'}/>
                 </a>
             </div>
         </div>
