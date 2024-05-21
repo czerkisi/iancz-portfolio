@@ -27,7 +27,7 @@ export default function NavBar(props: NavBarProps){
                 <div className={'nav-links'}>
                     <PageLink title={'Overview'} relativeUrl={'/'} key={'portfolio-link'} children={[]}
                               setShowProjectOverlay={props.setShowProjectOverlay}/>
-                    <PageLink title={'Experience'} relativeUrl={'/experience'} key={'portfolio-link'} children={[]}
+                    <PageLink title={'Experience'} relativeUrl={'/experience'} key={'experience-link'} children={[]}
                               setShowProjectOverlay={props.setShowProjectOverlay}/>
                     <PageLink title={'Projects'} key={'work'} children={pagesWithoutPortfolio}
                               setShowProjectOverlay={props.setShowProjectOverlay}/>

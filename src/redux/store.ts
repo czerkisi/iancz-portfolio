@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import projects from "./slices/projects";
 import pages from "./slices/pages";
+import skills from "./slices/skills";
 
 export const store = configureStore({
     reducer: {
         projects,
         pages,
+        skills,
     }
 })
 

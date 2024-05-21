@@ -7,18 +7,27 @@
     margin-bottom: 50px;
 }
 
+.homepage {
+    margin-top: 0;
+}
+
+.intro-pic {
+    width: 100vw;
+    user-select: none;
+}
+
 .profile-pic {
     height: 420px;
 }
 
-.not-found-title{
+.homepage-title {
     color: var(--blueColor);
     font-size: 72px;
     font-family: 'Old Standard TT', serif;
     margin-bottom: 20px;
 }
 
-.explore-text{
+.homepage-subtitle{
     color: var(--white-text-color);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -26,7 +35,7 @@
     margin-bottom: 20px;
 }
 
-.grab-snack-text{
+.homepage-description{
     color: var(--white-text-color);
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
