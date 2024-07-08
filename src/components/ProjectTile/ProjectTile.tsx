@@ -4,7 +4,7 @@ import {Project} from "../../redux/slices/pages";
 import {getProjectFile} from "../../pages/App/fileFunctions.ts";
 
 interface ProjectTileProps {
-    sectionTitle: string;
+    relativeLink: string;
     project: Project;
     onClick: () => void;
 }
@@ -26,7 +26,7 @@ export default function ProjectTile(props: ProjectTileProps) {
             className={'project-tile'}
         >
             <img
-                src={getProjectFile(props.sectionTitle, project.thumbnailImageFilename, project.projectTitle)}
+                src={getProjectFile(props.relativeLink, project.thumbnailImageFilename, project.projectTitle)}
                 alt={project.projectTitle}
                 className={'project-tile-img'}
             />

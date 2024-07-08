@@ -20,7 +20,7 @@ export default function Skills(){
                     <div className={'skill-display-container'}>
                         {webFrameworks.map(skill => <SkillDisplay skill={skill} key={skill.title}/>)}
                     </div>
-                    </div>
+                </div>
                 <div className={'skill-container'}>
                     <span className={'skill-title'}>Cloud</span>
                     <div className={'skill-display-container'}>

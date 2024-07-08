@@ -1,7 +1,6 @@
 import {useAppSelector} from "../../redux/hooks";
 import './NavBar.css';
-import PageLink from "../PageLink/PageLink";
-import {Page} from "../../redux/slices/pages";
+import PageLink, {PageLinkChild} from "../PageLink/PageLink";
 import {useNavigate} from "react-router-dom";
 import {getIconImage} from "../../pages/App/fileFunctions.ts";
 
@@ -12,7 +11,14 @@ interface NavBarProps {
 export default function NavBar(props: NavBarProps){
     const pages = useAppSelector(state => state.pages.pages);
     const navigate = useNavigate();
-    const pagesWithoutPortfolio = pages.filter((page: Page) => page.relativeLink !== '/');
+    const certificationsPage: PageLinkChild = {title: 'Certifications', relativeLink: '/certifications'};
+    const msoePage: PageLinkChild = {title: 'Milwaukee School of Engineering', relativeLink: '/msoe'}
+    const allOtherPages: PageLinkChild[] = pages
+        .filter(page => page.relativeLink !== '/msoe')
+        .map(page => ({
+            title: page.shortTitle,
+            relativeLink: page.relativeLink,
+        }));
 
     function redirectHome(){
         navigate('/');
@@ -25,11 +31,11 @@ export default function NavBar(props: NavBarProps){
                     <img className={'logo-image'} src={getIconImage('Logofull.png')} alt={'logo'}/>
                 </div>
                 <div className={'nav-links'}>
-                    <PageLink title={'Overview'} relativeUrl={'/'} key={'portfolio-link'} children={[]}
+                    <PageLink title={'Overview'} relativeUrl={'/'} key={'home-link'} children={[]}
                               setShowProjectOverlay={props.setShowProjectOverlay}/>
-                    <PageLink title={'Experience'} relativeUrl={'/experience'} key={'experience-link'} children={[]}
+                    <PageLink title={'Internships'} relativeUrl={'/internships'} key={'internships-link'} children={allOtherPages}
                               setShowProjectOverlay={props.setShowProjectOverlay}/>
-                    <PageLink title={'Projects'} key={'work'} children={pagesWithoutPortfolio}
+                    <PageLink title={'Education'} relativeUrl={'/education'} key={'education-link'} children={[msoePage, certificationsPage]}
                               setShowProjectOverlay={props.setShowProjectOverlay}/>
                     <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
                         <img src={getIconImage('LinkedInWhite.png')} alt={'LinkedIn'} className={'social-icon'}/>

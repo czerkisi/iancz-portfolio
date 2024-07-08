@@ -42,6 +42,14 @@
     box-sizing: border-box;
 }
 
+.edit-container > * {
+    color: var(--white-text-color);
+}
+
+.edit-container > button, input, select > *, option {
+    color: black;
+}
+
 .input-section-container {
     display: flex;
     flex-direction: column;

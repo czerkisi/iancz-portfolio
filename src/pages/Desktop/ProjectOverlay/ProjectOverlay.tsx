@@ -11,7 +11,7 @@ interface ProjectOverlayProps {
     goBackward: () => void;
     nextProjectTitle: string;
     previousProjectTitle: string;
-    projectSection: string;
+    relativeLink: string;
 }
 
 type GridItem = SubMedia | undefined | null;
@@ -134,7 +134,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps){
     function generateSubMediaTile(media: SubMedia, rowIndex: number, colIndex: number, index: number){
         return <SubMediaTile
             key={`${rowIndex}-${colIndex}`}
-            sectionTitle={props.projectSection}
+            sectionTitle={props.relativeLink}
             subMedia={media}
             projectTitle={project.projectTitle}
             onClick={() => setSubMediaIndex(index)}
@@ -210,7 +210,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps){
             {subMediaIndex !== undefined &&
                 <SubProjectViewer
                     projectName={project.projectTitle}
-                    sectionName={props.projectSection}
+                    sectionName={props.relativeLink}
                     subMedia={project.subMedia[subMediaIndex]}
                     onClose={() => setSubMediaIndex(undefined)}
                     goForward={() => setSubMediaIndex(subMediaIndex + 1)}

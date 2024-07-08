@@ -1,18 +1,19 @@
 import {useEffect, useState} from "react";
-import {Project, ProjectSection} from "../../../redux/slices/pages";
-import './ProjectSectionPage.css';
+import {Page, Project} from "../../../redux/slices/pages";
+import './ProjectPage.css';
 import ProjectTile from "../../../components/ProjectTile/ProjectTile";
 import ProjectOverlay from "../ProjectOverlay/ProjectOverlay";
+import {getIconImage} from "../../App/fileFunctions.ts";
 
 interface ProjectsPageProps {
-    section: ProjectSection;
+    page: Page;
     showProjectOverlay: boolean;
     setShowProjectOverlay: (show: boolean) => void;
 }
 
-export default function ProjectSectionPage(props: ProjectsPageProps){
-    const section = props.section;
-    const projects = section.projects;
+export default function ProjectPage(props: ProjectsPageProps){
+    const page = props.page;
+    const projects = page.projects;
     const showProjectOverlay = props.showProjectOverlay;
 
     const [projectIndex, setProjectIndex] = useState(0);
@@ -63,7 +64,7 @@ export default function ProjectSectionPage(props: ProjectsPageProps){
         <div>
             {showProjectOverlay ?
                 <ProjectOverlay
-                    projectSection={section.title}
+                    relativeLink={page.relativeLink}
                     project={projects[projectIndex]}
                     onClose={handleClose}
                     goForward={goForward}
@@ -71,17 +72,34 @@ export default function ProjectSectionPage(props: ProjectsPageProps){
                     nextProjectTitle={nextProjectTitle}
                     previousProjectTitle={previousProjectTitle}
                 />
-            :
-                <div className={'project-section-container'}>
-                    {section.title && <span className={'project-page-title'}>{section.title}</span>}
-                    {section.subtitle && <span className={'project-page-subtitle'}>{section.subtitle}</span>}
-                    {section.description && <span className={'project-page-description'}>{section.description}</span>}
+                :
+                <div className={'project-page'}>
+                    <div className={'project-overview-container'}>
+                        <div className={'project-overview-section'}>
+                            {JSON.stringify({
+                                Position: page.position,
+                                Company: page.company,
+                                Dates: page.dates,
+                                Location: page.location,
+                                Description: page.description
+                            })}
+                        </div>
+                        <div className={'project-overview-section-container'}>
+                            <img src={getIconImage(page.imageFilename)} alt={`${page.company} Logo`} className={'project-overview-image'}/>
+                        </div>
+                    </div>
+                    <span>
+
+                    </span>
+                    {/*{section.title && <span className={'project-page-title'}>{section.title}</span>}*/}
+                    {/*{section.subtitle && <span className={'project-page-subtitle'}>{section.subtitle}</span>}*/}
+                    {/*{section.description && <span className={'project-page-description'}>{section.description}</span>}*/}
                     <div className={'project-rows-container'}>
                         {projectRows.map((row, rowIndex) => (
                             <div className={'project-section-row'} key={`row-${rowIndex}`}>
                                 {row.map((project, index) => (
                                     <ProjectTile
-                                        sectionTitle={section.title}
+                                        relativeLink={page.relativeLink}
                                         project={project}
                                         onClick={() => handleClick(rowIndex * 3 + index)}
                                         key={`${project.projectTitle}-${project.uid}-${index}`}

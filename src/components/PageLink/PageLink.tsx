@@ -1,13 +1,16 @@
 import { useState } from "react";
-import { Page } from "../../redux/slices/pages";
 import "./PageLink.css";
 import {useLocation, useNavigate} from "react-router-dom";
 
+export interface PageLinkChild {
+    title: string;
+    relativeLink: string;
+}
 
 interface LinkItemProps {
     relativeUrl?: string;
     title: string;
-    children: Page[];
+    children: PageLinkChild[];
     setShowProjectOverlay: (show: boolean) => void;
 }
 
@@ -39,10 +42,9 @@ export default function PageLink(props: LinkItemProps) {
 
     const location = useLocation();
     const pathname = location.pathname;
+    const pathnameContainsChild = children.some(child => pathname === child.relativeLink);
 
-    if (pathname === props.relativeUrl || isHovered) {
-        classes.push('selected-nav-link');
-    } else if ((pathname !== '/' && props.relativeUrl !== '/') && (pathname !== '/about' && props.relativeUrl !== '/about')) {
+    if (pathname === props.relativeUrl || isHovered || pathnameContainsChild) {
         classes.push('selected-nav-link');
     }
     if (children.length === 0){
@@ -62,7 +64,7 @@ export default function PageLink(props: LinkItemProps) {
                 <ul className="child-list">
                     {children.map((child, index) => (
                         <li key={index} onClick={() => navigateToLink(child.relativeLink)}>
-                            {child.shortTitle}
+                            {child.title}
                         </li>
                     ))}
                 </ul>

@@ -67,7 +67,7 @@ export default function MobileNavBar(props: NavBarProps) {
                         :
                         <ul>
                             {pagesWithoutPortfolio.map((page: Page) => (
-                                <li key={page.relativeLink} onClick={navigateTo(page.relativeLink)} className={'mobile-name-title'}>{page.shortTitle}</li>
+                                <li key={page.relativeLink} onClick={navigateTo(page.relativeLink)} className={'mobile-name-title'}>{page.company}</li>
                             ))}
                         </ul>
                     }

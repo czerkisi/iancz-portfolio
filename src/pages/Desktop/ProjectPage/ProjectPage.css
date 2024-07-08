@@ -6,6 +6,28 @@
     text-align: center;
 }
 
+.project-overview-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.project-overview-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.project-overview-image {
+    max-width: 80%;
+}
+
 .project-page-subtitle {
     font-family: 'Montserrat', serif;
     font-size: 20px;
