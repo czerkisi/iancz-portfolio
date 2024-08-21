@@ -76,16 +76,13 @@ export default function ProjectPage(props: ProjectsPageProps){
                 <div className={'project-page'}>
                     <div className={'project-overview-container'}>
                         <div className={'project-overview-section'}>
-                            {JSON.stringify({
-                                Position: page.position,
-                                Company: page.company,
-                                Dates: page.dates,
-                                Location: page.location,
-                                Description: page.description
-                            })}
+                            <span className={'project-overview-title'}>{`${page.position} @ ${page.company}`}</span>
+                            <span className={'project-overview-subtitle'}>{page.location}</span>
+                            <span className={'project-overview-dates'}>{page.dates}</span>
+                            <span className={'project-overview-description'}>{page.description}</span>
                         </div>
                         <div className={'project-overview-section-container'}>
-                            <img src={getIconImage(page.imageFilename)} alt={`${page.company} Logo`} className={'project-overview-image'}/>
+                        <img src={getIconImage(page.imageFilename)} alt={`${page.company} Logo`} className={'project-overview-image'}/>
                         </div>
                     </div>
                     <span>
