@@ -31,7 +31,7 @@ export default function ContactForm() {
 
         // Construct the mailto link
         // Open the default email client with the mailto link
-        window.location.href = `mailto:ryleighleon@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`${body}\n\nBest,\n${name}`)}`;
+        window.location.href = `mailto:ian.czerkis@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`${body}\n\nBest,\n${name}`)}`;
 
         // Reset the form after submission if needed
         setFormData({
@@ -47,7 +47,7 @@ export default function ContactForm() {
             <div className={'contact-info'}>
                 <span className={'contact-info-title'}>Connect with Me!</span>
                 <span className={'contact-info-body'}>Interested in learning more about me, my work or how we can collaborate on an upcoming project? Feel free to reach out anytime, I would be more than happy to chat.</span>
-                <a href='mailto:ryleighleon@gmail.com' className={'contact-email'}>ryleighleon@gmail.com</a>
+                <a href='mailto:ian.czerkis@gmail.com' className={'contact-email'}>ian.czerkis@gmail.com</a>
                 <div className={'contact-socials'}>
                     <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
                         <img src={getIconImage(`LinkedInBlack.png`)} alt={'LinkedIn'} className={'social-icon'}/>
