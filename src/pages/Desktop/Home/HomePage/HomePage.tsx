@@ -1,11 +1,10 @@
 import './HomePage.css';
-import {getIconImage} from "../../../App/fileFunctions.ts";
 import Skills from "../Skills/Skills.tsx";
 
 export default function HomePage(){
     return (
         <div className={'homepage page'}>
-            <img src={getIconImage('intro.png')} alt={'Intro'} className={'intro-pic'}/>
+            {/*<img src={getIconImage('intro.png')} alt={'Intro'} className={'intro-pic'}/>*/}
             <div className={'projects-highlight-section'}>
                 <span className={'homepage-title'}>Skills</span>
             </div>

@@ -1,0 +1,65 @@
+/* Container for the entire page */
+.nba-predictions-page {
+    padding: 20px;
+}
+
+/* Header section with two columns */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Grid for the tables */
+.tables-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Table container styling */
+.table-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h3 {
+    margin-bottom: 10px;
+}
+
+/* Basic table styling */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}

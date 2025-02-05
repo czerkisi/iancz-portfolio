@@ -5,7 +5,10 @@
 .page {
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
-  margin-top: 50px;
+  max-width: 1200px;                     /* Limits the maximum width of content */
+  margin: 50px auto;                     /* 50px top (and bottom) margin, auto left/right centering */
+  padding-left: clamp(1rem, 5vw, 2rem);   /* Responsive left padding */
+  padding-right: clamp(1rem, 5vw, 2rem);  /* Responsive right padding */
 }
 
 @keyframes fadeIn {
