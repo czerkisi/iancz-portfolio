@@ -21,3 +21,7 @@ export async function getRootFileText(filename: string) {
         return '';
     }
 }
+
+export function getCustomProjectFile(projectName: string, fileName: string){
+    return `customProjects/${projectName}/${fileName}`;
+}

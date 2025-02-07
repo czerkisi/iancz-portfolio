@@ -28,19 +28,21 @@
     height: auto;
 }
 
-/* Grid for the tables */
+/* Grid for the tables with increased minimum width */
 .tables-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
 }
 
 /* Table container styling */
 .table-container {
-    background-color: #f9f9f9;
+    background-color: var(--background-color);
     padding: 15px;
+    border: 1px solid black;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
 .table-container h3 {
@@ -55,11 +57,22 @@
 
 .table-container th,
 .table-container td {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 8px;
     text-align: left;
+    color: white;
 }
 
+/* Optional: Slightly dark header background for contrast */
 .table-container th {
-    background-color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.max-input-container {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
