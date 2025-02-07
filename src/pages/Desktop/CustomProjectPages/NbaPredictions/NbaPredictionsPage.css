@@ -3,28 +3,13 @@
     padding: 20px;
 }
 
-/* Header section with two columns */
-.header {
+.predictions-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    flex-direction: column;
 }
 
-.header-left {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.header-right {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header-right img {
-    max-width: 100%;
+.predictions-header img {
+    max-width: 30%;
     height: auto;
 }
 
@@ -33,6 +18,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
+    justify-content: center;
 }
 
 /* Table container styling */

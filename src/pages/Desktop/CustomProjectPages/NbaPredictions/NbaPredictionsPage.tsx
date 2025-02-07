@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './NbaPredictionsPage.css';
-import { getCustomProjectFile, getIconImage } from '../../../App/fileFunctions';
+import { getCustomProjectFile } from '../../../App/fileFunctions';
 
 // Define the shape of a game entry.
 interface GameEntry {
@@ -150,23 +150,18 @@ const NbaPredictionsPage: React.FC = () => {
 
     return (
         <div className="page nba-predictions-page">
-            <div className="header">
-                <div className="header-left">
-                    <h1>NBA Game Outcomes</h1>
-                    <h2>AI Research Project</h2>
-                    <p>
-                        This codebase implements a comprehensive system for predicting NBA game outcomes and making data-driven betting recommendations based on historical game statistics and real betting lines. In the first section, the code builds a predictive model using a LightGBM classifier. It starts by preparing and splitting the training data, then tunes the model’s hyperparameters via cross-validation while providing real-time progress feedback through a progress bar. Once the optimal parameters are identified, the model is trained on the full dataset and used to update previous game predictions. This process includes encoding team IDs, computing various game statistics for both home and away teams, and ultimately generating win probability estimates that serve as a basis for further analysis.<br/><br/>
+            <div className="predictions-header">
+                <h1>NBA Game Outcomes</h1>
+                <h2>AI Research Project</h2>
+                <p>
+                    This codebase implements a comprehensive system for predicting NBA game outcomes and making data-driven betting recommendations based on historical game statistics and real betting lines. In the first section, the code builds a predictive model using a LightGBM classifier. It starts by preparing and splitting the training data, then tunes the model’s hyperparameters via cross-validation while providing real-time progress feedback through a progress bar. Once the optimal parameters are identified, the model is trained on the full dataset and used to update previous game predictions. This process includes encoding team IDs, computing various game statistics for both home and away teams, and ultimately generating win probability estimates that serve as a basis for further analysis.<br/><br/>
 
-                        The second part of the code focuses on deriving profitable betting strategies. Here, the system uses a Random Forest regressor to predict the expected profit of a bet by comparing the model’s win percentage predictions against the the implied win percentage of real betting odds. For example, +200 implies a 33% chance of winning. Key features, such as the difference and ratio between the model’s win probability and the API’s probability, are calculated and used to train the profit prediction model. A grid search with cross-validation is applied to fine-tune the hyperparameters, ensuring the best model performance. The optimal profit threshold is then determined by identifying the value that maximizes realized profit across multiple cross-validation folds.<br/><br/>
+                    The second part of the code focuses on deriving profitable betting strategies. Here, the system uses a Random Forest regressor to predict the expected profit of a bet by comparing the model’s win percentage predictions against the the implied win percentage of real betting odds. For example, +200 implies a 33% chance of winning. Key features, such as the difference and ratio between the model’s win probability and the API’s probability, are calculated and used to train the profit prediction model. A grid search with cross-validation is applied to fine-tune the hyperparameters, ensuring the best model performance. The optimal profit threshold is then determined by identifying the value that maximizes realized profit across multiple cross-validation folds.<br/><br/>
 
-                        For making real-time betting decisions, the code computes the Kelly criterion for bet sizing. When evaluating an upcoming game, it assesses whether the predicted net profit exceeds a preset threshold. Based on the comparison of the model’s win probability with implied betting odds, the system decides on which team to bet. If the model predicts a higher chance of winning for the home team compared to the API’s odds, the bet is placed on the home team; if the opposite is true, the away team is favored. The Kelly fraction is calculated differently for each side, ensuring that the bet amount is appropriately scaled as a fraction of the available bankroll. This approach helps in optimizing bet sizes while managing risk. Overall, the design combines robust machine learning methods with practical betting strategies to offer informed recommendations for NBA games.<br/><br/>
+                    For making real-time betting decisions, the code computes the Kelly criterion for bet sizing. When evaluating an upcoming game, it assesses whether the predicted net profit exceeds a preset threshold. Based on the comparison of the model’s win probability with implied betting odds, the system decides on which team to bet. If the model predicts a higher chance of winning for the home team compared to the API’s odds, the bet is placed on the home team; if the opposite is true, the away team is favored. The Kelly fraction is calculated differently for each side, ensuring that the bet amount is appropriately scaled as a fraction of the available bankroll. This approach helps in optimizing bet sizes while managing risk. Overall, the design combines robust machine learning methods with practical betting strategies to offer informed recommendations for NBA games.<br/><br/>
 
-                        This model is trained to maximize profit, not win percentage, so it will often opt to bet on underdogs where it sees an edge versus the betting markets. Additionally, it will tend to avoid bets where the upside on the bet is very small even when the model predicts the team to win. These are denoted in the table as "No Bet (Profit Too Small)". Additionally, if either team experiences a major roster change (i.e. a trade or injury), this team will enter a cooldown period where the model will observe the team's performance for a manually specified number of games without recommending any bets on those games. These are denoted in the table as "No Bet (Cooldown)".
-                    </p>
-                </div>
-                <div className="header-right">
-                    <img src={getIconImage('nbalogo.jpg')} alt="NBA Visual" />
-                </div>
+                    This model is trained to maximize profit, not win percentage, so it will often opt to bet on underdogs where it sees an edge versus the betting markets. Additionally, it will tend to avoid bets where the upside on the bet is very small even when the model predicts the team to win. These are denoted in the table as "No Bet (Profit Too Small)". Additionally, if either team experiences a major roster change (i.e. a trade or injury), this team will enter a cooldown period where the model will observe the team's performance for a manually specified number of games without recommending any bets on those games. These are denoted in the table as "No Bet (Cooldown)".
+                </p>
             </div>
 
             {/* Input for the maximum betting amount */}
