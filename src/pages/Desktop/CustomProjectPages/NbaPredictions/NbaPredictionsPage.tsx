@@ -151,8 +151,8 @@ const NbaPredictionsPage: React.FC = () => {
     return (
         <div className="page nba-predictions-page">
             <div className="predictions-header">
-                <h1>NBA Game Outcomes</h1>
-                <h2>AI Research Project</h2>
+                <h1 className={'nba-preds-header'}>NBA Game Outcomes</h1>
+                <h2 className={'nba-preds-header-2'}>AI Research Project</h2>
                 <p>
                     This codebase implements a comprehensive system for predicting NBA game outcomes and making data-driven betting recommendations based on historical game statistics and real betting lines. In the first section, the code builds a predictive model using a LightGBM classifier. It starts by preparing and splitting the training data, then tunes the model’s hyperparameters via cross-validation while providing real-time progress feedback through a progress bar. Once the optimal parameters are identified, the model is trained on the full dataset and used to update previous game predictions. This process includes encoding team IDs, computing various game statistics for both home and away teams, and ultimately generating win probability estimates that serve as a basis for further analysis.<br/><br/>
 
@@ -165,6 +165,7 @@ const NbaPredictionsPage: React.FC = () => {
             </div>
 
             {/* Input for the maximum betting amount */}
+            <h1>Results</h1>
             <div className={'max-input-container'}>
                 <h2>Kelly's Criterion</h2>
                 <p>Kelly's Criterion computes a bet size from 0 to 1. Enter a maximum bet size to see the Kelly Criterion computed ideal betting amounts and how they would've performed over the course of this season</p>
@@ -207,7 +208,7 @@ const NbaPredictionsPage: React.FC = () => {
                             <td>${lastMonthStats.totalReturn.toFixed(2)}</td>
                         </tr>
                         <tr>
-                            <td>Season (All Time)</td>
+                            <td>Season</td>
                             <td>{seasonStats.winPercentage.toFixed(2)}%</td>
                             <td>${seasonStats.totalReturn.toFixed(2)}</td>
                         </tr>
