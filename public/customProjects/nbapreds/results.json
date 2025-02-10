@@ -1369,7 +1369,7 @@
         "away_team": "Charlotte Hornets",
         "predicted_win_percentage": 0.769,
         "polymarket_win_percentage": 0.795,
-        "result": null,
+        "result": "W",
         "bet_rec": "Charlotte Hornets",
         "bet_amount": 0.03
     },
@@ -1379,7 +1379,7 @@
         "away_team": "Toronto Raptors",
         "predicted_win_percentage": 0.637,
         "polymarket_win_percentage": 0.775,
-        "result": null,
+        "result": "W",
         "bet_rec": "Toronto Raptors",
         "bet_amount": 0.18
     },
@@ -1389,8 +1389,108 @@
         "away_team": "Philadelphia 76ers",
         "predicted_win_percentage": 0.197,
         "polymarket_win_percentage": 0.485,
+        "result": "W",
+        "bet_rec": "No Bet (Cooldown)",
+        "bet_amount": 0
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Los Angeles Lakers",
+        "away_team": "Utah Jazz",
+        "predicted_win_percentage": 0.404,
+        "polymarket_win_percentage": 0.865,
         "result": null,
         "bet_rec": "No Bet (Cooldown)",
         "bet_amount": 0
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Orlando Magic",
+        "away_team": "Atlanta Hawks",
+        "predicted_win_percentage": 0.804,
+        "polymarket_win_percentage": 0.65,
+        "result": null,
+        "bet_rec": "No Bet (Profit Too Small)",
+        "bet_amount": 0
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Miami Heat",
+        "away_team": "Boston Celtics",
+        "predicted_win_percentage": 0.26,
+        "polymarket_win_percentage": 0.325,
+        "result": null,
+        "bet_rec": "Boston Celtics",
+        "bet_amount": 0.2
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Washington Wizards",
+        "away_team": "San Antonio Spurs",
+        "predicted_win_percentage": 0.382,
+        "polymarket_win_percentage": 0.175,
+        "result": null,
+        "bet_rec": "No Bet (Cooldown)",
+        "bet_amount": 0
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Milwaukee Bucks",
+        "away_team": "Golden State Warriors",
+        "predicted_win_percentage": 0.339,
+        "polymarket_win_percentage": 0.315,
+        "result": null,
+        "bet_rec": "No Bet (Cooldown)",
+        "bet_amount": 0
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Cleveland Cavaliers",
+        "away_team": "Minnesota Timberwolves",
+        "predicted_win_percentage": 0.531,
+        "polymarket_win_percentage": 0.785,
+        "result": null,
+        "bet_rec": "Minnesota Timberwolves",
+        "bet_amount": 0.32
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Dallas Mavericks",
+        "away_team": "Sacramento Kings",
+        "predicted_win_percentage": 0.393,
+        "polymarket_win_percentage": 0.505,
+        "result": null,
+        "bet_rec": "No Bet (Cooldown)",
+        "bet_amount": 0
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Brooklyn Nets",
+        "away_team": "Charlotte Hornets",
+        "predicted_win_percentage": 0.462,
+        "polymarket_win_percentage": 0.615,
+        "result": null,
+        "bet_rec": "Charlotte Hornets",
+        "bet_amount": 0.25
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Oklahoma City Thunder",
+        "away_team": "New Orleans Pelicans",
+        "predicted_win_percentage": 0.983,
+        "polymarket_win_percentage": 0.915,
+        "result": null,
+        "bet_rec": "Oklahoma City Thunder",
+        "bet_amount": 0.8
+    },
+    {
+        "date": "2025-02-10",
+        "home_team": "Denver Nuggets",
+        "away_team": "Portland Trail Blazers",
+        "predicted_win_percentage": 0.84,
+        "polymarket_win_percentage": 0.775,
+        "result": null,
+        "bet_rec": "Denver Nuggets",
+        "bet_amount": 0.29
     }
 ]
