@@ -1689,7 +1689,7 @@
         "away_team": "Oklahoma City Thunder",
         "predicted_win_percentage": 0.311,
         "polymarket_win_percentage": 0.265,
-        "result": null,
+        "result": "W",
         "bet_rec": "No Bet (Profit Too Small)",
         "bet_amount": 0
     },
@@ -1699,7 +1699,7 @@
         "away_team": "Sacramento Kings",
         "predicted_win_percentage": 0.599,
         "polymarket_win_percentage": 0.26,
-        "result": null,
+        "result": "W",
         "bet_rec": "No Bet (Cooldown)",
         "bet_amount": 0
     },
@@ -1709,7 +1709,7 @@
         "away_team": "Los Angeles Clippers",
         "predicted_win_percentage": 0.3,
         "polymarket_win_percentage": 0.255,
-        "result": null,
+        "result": "L",
         "bet_rec": "No Bet (Profit Too Small)",
         "bet_amount": 0
     },
@@ -1719,7 +1719,7 @@
         "away_team": "Miami Heat",
         "predicted_win_percentage": 0.322,
         "polymarket_win_percentage": 0.475,
-        "result": null,
+        "result": "W",
         "bet_rec": "No Bet (Cooldown)",
         "bet_amount": 0
     },
@@ -1729,7 +1729,7 @@
         "away_team": "Golden State Warriors",
         "predicted_win_percentage": 0.676,
         "polymarket_win_percentage": 0.685,
-        "result": null,
+        "result": "L",
         "bet_rec": "Golden State Warriors",
         "bet_amount": 0.01
     }
