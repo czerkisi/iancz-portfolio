@@ -8,7 +8,7 @@ export default function Footer(){
     return (
         <div className={'footer-container'}>
             <span className={'footer-name'}>Ian Czerkis</span>
-            <a href='mailto:ian.czerkis@icloud.com' className={'email'}>ian.czerkis@icloud.com</a>
+            <a href='mailto:iancz.se@proton.me' className={'email'}>iancz.se@proton.me</a>
             <div className={'footer-socials'}>
                 <a href={'https://www.linkedin.com/in/ian-czerkis'} target="_blank" rel="noopener noreferrer">
                     <img src={getIconImage('LinkedInWhite.png')} alt={'LinkedIn'} className={'social-icon'}/>

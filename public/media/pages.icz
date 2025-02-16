@@ -4,7 +4,7 @@
       "uid": "6fjq69",
       "relativeLink": "/jpmc-2024",
       "position": "Software Engineering Intern",
-      "shortTitle": "JPMorganChase 2024",
+      "shortTitle": "JPMorganChase (2024)",
       "company": "JPMorganChase",
       "dates": "June 2024 - August 2024",
       "location": "Jersey City, New Jersey",
@@ -16,7 +16,7 @@
       "uid": "b5g29",
       "relativeLink": "/jpmc-2023",
       "position": "Software Engineering Intern",
-      "shortTitle": "JPMorganChase 2023",
+      "shortTitle": "JPMorganChase (2023)",
       "company": "JPMorganChase",
       "dates": "June - August 2023",
       "location": "Jersey City, New Jersey",
@@ -33,6 +33,18 @@
       "company": "Milwaukee School of Engineering",
       "dates": "September 2021 - December 2024",
       "location": "Milwaukee, WI",
+      "description": "",
+      "projects": []
+    },
+    {
+      "imageFilename": "IntrepidCS.png",
+      "uid": "ehqxel",
+      "relativeLink": "/intrepidcs",
+      "position": "Applications Engineer Intern",
+      "shortTitle": "Intrepid Control Systems (2022)",
+      "company": "Intrepid Control Systems",
+      "dates": "May 2022 - August 2022",
+      "location": "Troy, Michigan",
       "description": "",
       "projects": []
     }
