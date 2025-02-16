@@ -16,6 +16,7 @@ import {InitialSkillsState, setSkills} from "../../redux/slices/skills.ts";
 import HomePage from "../Desktop/Home/HomePage/HomePage.tsx";
 import ProjectPage from "../Desktop/ProjectPage/ProjectPage.tsx";
 import NbaPredictionsPage from "../Desktop/CustomProjectPages/NbaPredictions/NbaPredictionsPage.tsx";
+import NbaPredictionsMobilePage from "../Mobile/CustomMobilePages/NbaPredictionsMobile/NbaPredictionsMobilePage.tsx";
 
 function App() {
     const dispatch = useAppDispatch();
@@ -62,7 +63,7 @@ function App() {
                         :
                         <Route path={'*'} Component={NotFound}/>
                     }
-                    <Route path={'/nbapreds'} Component={NbaPredictionsPage}/>
+                    <Route path={'/nbapreds'} Component={isMobile ? NbaPredictionsMobilePage: NbaPredictionsPage}/>
                     <Route path={'/edit'} element={<EditPage/>}/>
                 </Routes>
                 {isMobile ? <MobileFooter/> : <Footer/>}
