@@ -14,7 +14,7 @@ interface GameEntry {
     bet_amount?: number;
 }
 
-const NbaPredictionsPage: React.FC = () => {
+const NbaPredictionsMobilePage: React.FC = () => {
     const [maxBet, setMaxBet] = useState<number>(20);
     const [results, setResults] = useState<GameEntry[]>([]);
 
@@ -125,21 +125,21 @@ const NbaPredictionsPage: React.FC = () => {
     );
 
     return (
-        <div className="page nba-predictions-page">
-            <header className="predictions-header">
-                <h1 className="nba-preds-header">NBA Game Outcomes</h1>
-                <h2 className="nba-preds-header-2">AI Research Project</h2>
+        <div className="page-mobile nba-predictions-page-mobile">
+            <header className="predictions-header-mobile">
+                <h1 className="nba-preds-header-mobile">NBA Game Outcomes</h1>
+                <h2 className="nba-preds-header-2-mobile">AI Research Project</h2>
                 <p>
                     This system predicts NBA game outcomes and generates data-driven betting recommendations based on historical statistics and betting odds. It includes detailed analysis on win probabilities, optimal bet sizing using the Kelly Criterion, and real-time predictions.
                 </p>
             </header>
 
-            <section className="max-input-container">
+            <section className="max-input-container-mobile">
                 <h2>Kelly's Criterion</h2>
                 <p>
                     Enter a maximum bet size to see how the Kelly Criterion would have scaled bets and affected performance over the season.
                 </p>
-                <div className="max-bet-input">
+                <div className="max-bet-input-mobile">
                     <label htmlFor="maxBet">Max Betting Amount:</label>
                     <input
                         type="number"
@@ -152,8 +152,8 @@ const NbaPredictionsPage: React.FC = () => {
                 </div>
             </section>
 
-            <section className="tables-grid">
-                <div className="table-container">
+            <section className="tables-grid-mobile">
+                <div className="table-container-mobile">
                     <h3>Statistics</h3>
                     <table>
                         <thead>
@@ -183,7 +183,7 @@ const NbaPredictionsPage: React.FC = () => {
                     </table>
                 </div>
 
-                <div className="table-container">
+                <div className="table-container-mobile">
                     <h3>Yesterday's Results</h3>
                     <table>
                         <thead>
@@ -252,7 +252,7 @@ const NbaPredictionsPage: React.FC = () => {
                     </table>
                 </div>
 
-                <div className="table-container">
+                <div className="table-container-mobile">
                     <h3>Today's Predictions</h3>
                     <table>
                         <thead>
@@ -290,4 +290,4 @@ const NbaPredictionsPage: React.FC = () => {
     );
 };
 
-export default NbaPredictionsPage;
+export default NbaPredictionsMobilePage;

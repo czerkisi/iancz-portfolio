@@ -1,6 +1,6 @@
 .mobile-nav-bar {
     height: 50px;
-    background-color: var(--whiteColor);
+    background-color: var(--blackColor);
     display: flex;
     align-items: center;
     justify-content: space-between;

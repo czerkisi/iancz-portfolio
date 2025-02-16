@@ -52,7 +52,7 @@ export default function MobileNavBar(props: NavBarProps) {
 
     return (
         <div className={'mobile-nav-bar'}>
-            <img className={'mobile-logo-image'} src={getIconImage('LogoFull.png')} alt={'logo'} onClick={navigateTo('/')} />
+            <img className={'mobile-logo-image'} src={getIconImage('Logofull.png')} alt={'logo'} onClick={navigateTo('/')} />
             <img src={getIconImage('hamburgerIcon.png')} alt={'nav'} className={'mobile-hamburger-icon'} onClick={handleHamburgerClick} />
 
             {showPages && (
