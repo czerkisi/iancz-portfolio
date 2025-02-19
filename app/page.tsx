@@ -26,38 +26,38 @@ const skills: Record<string, Skill[]> = {
       name: "Java",
       category: "Languages",
       description:
-          "enterprise application development and backend services",
+          "Enterprise application development and backend services",
       icon: "/icons/java.png",
     },
     {
       name: "Python",
       category: "Languages",
-      description: "data processing and backend development",
+      description: "Data processing and backend development",
       icon: "/icons/python.png",
     },
     {
       name: "C/C++",
       category: "Languages",
       description:
-          "systems programming and performance-critical applications",
+          "Systems programming and performance-critical applications",
       icon: "/icons/cpp.png",
     },
     {
       name: "JavaScript",
       category: "Languages",
-      description: "frontend and Node.js development",
+      description: "Frontend and Node.js development",
       icon: "/icons/js.png",
     },
     {
       name: "TypeScript",
       category: "Languages",
-      description: "type-safe JavaScript development",
+      description: "Type-safe JavaScript development",
       icon: "/icons/ts.png",
     },
     {
       name: "Go",
       category: "Languages",
-      description: "cloud-native application development",
+      description: "Cloud-native application development",
       icon: "/icons/golang.png",
     },
   ],
@@ -66,13 +66,13 @@ const skills: Record<string, Skill[]> = {
       name: "Amazon Web Services",
       category: "Cloud",
       description:
-          "cloud infrastructure and services",
+          "Cloud infrastructure and services",
       icon: "/icons/aws.png",
     },
     {
       name: "Google Cloud",
       category: "Cloud",
-      description: "cloud platform services",
+      description: "Cloud platform services",
       icon: "/icons/gcp.png",
     },
     {
@@ -84,13 +84,13 @@ const skills: Record<string, Skill[]> = {
     {
       name: "Kubernetes",
       category: "DevOps",
-      description: "container orchestration",
+      description: "Container orchestration service",
       icon: "/icons/kubernetes.png",
     },
     {
       name: "Docker",
       category: "DevOps",
-      description: "containerization",
+      description: "Containerization tool",
       icon: "/icons/docker.png",
     },
     {
@@ -103,13 +103,13 @@ const skills: Record<string, Skill[]> = {
       name: "Jenkins",
       category: "DevOps",
       description:
-          "continuous integration and deployment",
+          "Continuous integration and deployment",
       icon: "/icons/jenkins.png",
     },
     {
       name: "Splunk",
       category: "DevOps",
-      description: "log monitoring and analysis",
+      description: "Log monitoring and analysis",
       icon: "/icons/splunk.png",
     },
   ],
@@ -117,27 +117,27 @@ const skills: Record<string, Skill[]> = {
     {
       name: "React",
       category: "Web Frameworks",
-      description: "building modern user interfaces",
+      description: "Building modern user interfaces",
       icon: "/icons/react.png",
     },
     {
       name: "Next.js",
       category: "Web Frameworks",
       description:
-          "production-grade React applications",
+          "Production-grade React applications",
       icon: "/icons/nextjs.png",
     },
     {
       name: "Spring",
       category: "Web Frameworks",
       description:
-          "developing Java-based enterprise applications",
+          "Developing Java-based web backends",
       icon: "/icons/spring.png",
     },
     {
       name: "Express",
       category: "Web Frameworks",
-      description: "building Node.js web applications and APIs",
+      description: "Building Node.js web applications and APIs",
       icon: "/icons/express.png",
     },
     {
