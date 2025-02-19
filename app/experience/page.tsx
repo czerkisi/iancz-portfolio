@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 const experiences = [
   {
     title: "Software Engineer",
-    company: "JPMorgan Chase",
-    location: "New York, New York",
+    company: "JPMorganChase",
+    location: "Jersey City, New Jersey",
     period: "February 2025 - Present",
     description:
       "Working on cloud architecture and infrastructure projects, contributing to the development of scalable and efficient solutions for enterprise-level applications.",
@@ -15,8 +15,8 @@ const experiences = [
   },
   {
     title: "Software Engineering Intern",
-    company: "JPMorgan Chase",
-    location: "New York, New York",
+    company: "JPMorganChase",
+    location: "Jersey City, New Jersey",
     period: "June 2024 - August 2024",
     description:
       "Worked on a cloud architecture team to consult and assist with application migrations to Public Cloud, and contributed to a Product as a Platform infrastructure automation tool for hundreds of product teams.",
@@ -24,8 +24,8 @@ const experiences = [
   },
   {
     title: "Software Engineering Intern",
-    company: "JPMorgan Chase",
-    location: "New York, New York",
+    company: "JPMorganChase",
+    location: "Jersey City, New Jersey",
     period: "May 2023 - August 2023",
     description:
       "Developed full stack applications in an AWS environment, deployed on Amazon Web Services, and wrote microservices to manage databases and web applications.",
@@ -35,9 +35,10 @@ const experiences = [
     title: "Applications Engineer Intern",
     company: "Intrepid Control Systems",
     period: "May 2022 - August 2022",
+    location: "Troy, Michigan",
     description:
       "Created and debugged vehicle network solutions using C#, Python, and proprietary languages for Fortune 500 companies and major conferences.",
-    logo: "/icons/intrepics.png",
+    logo: "/icons/intrepidcs.png",
   },
 ]
 
@@ -73,8 +74,8 @@ export default function ExperiencePage() {
                     </div>
                   </div>
                   <div>
-                    {experience.location && <p className="text-sm text-muted-foreground">{experience.location}</p>}
-                    <p className="text-sm font-medium">{experience.period}</p>
+                    {experience.location && <p className="text-sm font-medium">{experience.location}</p>}
+                    <p className="text-sm text-muted-foreground">{experience.period}</p>
                   </div>
                   <p className="text-sm text-muted-foreground">{experience.description}</p>
                 </div>
