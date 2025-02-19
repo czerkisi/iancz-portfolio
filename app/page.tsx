@@ -25,37 +25,39 @@ const skills: Record<string, Skill[]> = {
     {
       name: "Java",
       category: "Languages",
-      description: "Enterprise application development and backend services",
+      description:
+          "Used for enterprise application development and backend services",
       icon: "/icons/java.png",
     },
     {
       name: "Python",
       category: "Languages",
-      description: "Data processing and backend development",
+      description: "Used for data processing and backend development",
       icon: "/icons/python.png",
     },
     {
       name: "C/C++",
       category: "Languages",
-      description: "Systems programming and performance-critical applications",
+      description:
+          "Used for systems programming and performance-critical applications",
       icon: "/icons/cpp.png",
     },
     {
       name: "JavaScript",
       category: "Languages",
-      description: "Frontend and Node.js development",
+      description: "Used for frontend and Node.js development",
       icon: "/icons/js.png",
     },
     {
       name: "TypeScript",
       category: "Languages",
-      description: "Type-safe JavaScript development",
+      description: "Used for type-safe JavaScript development",
       icon: "/icons/ts.png",
     },
     {
       name: "Go",
       category: "Languages",
-      description: "Cloud-native application development",
+      description: "Used for cloud-native application development",
       icon: "/icons/golang.png",
     },
   ],
@@ -63,49 +65,51 @@ const skills: Record<string, Skill[]> = {
     {
       name: "Amazon Web Services",
       category: "Cloud",
-      description: "Cloud infrastructure and services",
+      description:
+          "Used for cloud infrastructure and services",
       icon: "/icons/aws.png",
     },
     {
       name: "Google Cloud",
       category: "Cloud",
-      description: "Cloud platform services",
+      description: "Used for cloud platform services",
       icon: "/icons/gcp.png",
     },
     {
       name: "Azure",
       category: "Cloud",
-      description: "Microsoft cloud services",
+      description: "Used for Microsoft cloud services",
       icon: "/icons/azure.png",
     },
     {
       name: "Kubernetes",
       category: "DevOps",
-      description: "Container orchestration",
+      description: "Used for container orchestration",
       icon: "/icons/kubernetes.png",
     },
     {
       name: "Docker",
       category: "DevOps",
-      description: "Container platform",
+      description: "Used for containerization",
       icon: "/icons/docker.png",
     },
     {
       name: "Terraform",
       category: "DevOps",
-      description: "Infrastructure as Code",
+      description: "Used for Infrastructure as Code",
       icon: "/icons/terraform.png",
     },
     {
       name: "Jenkins",
       category: "DevOps",
-      description: "Continuous Integration/Deployment",
+      description:
+          "Used for continuous integration and deployment",
       icon: "/icons/jenkins.png",
     },
     {
       name: "Splunk",
       category: "DevOps",
-      description: "Log monitoring and analysis",
+      description: "Used for log monitoring and analysis",
       icon: "/icons/splunk.png",
     },
   ],
@@ -113,31 +117,33 @@ const skills: Record<string, Skill[]> = {
     {
       name: "React",
       category: "Web Frameworks",
-      description: "Building modern user interfaces",
+      description: "Used for building modern user interfaces",
       icon: "/icons/react.png",
     },
     {
       name: "Next.js",
       category: "Web Frameworks",
-      description: "React framework for production-grade applications",
+      description:
+          "Used for production-grade React applications",
       icon: "/icons/nextjs.png",
     },
     {
       name: "Spring",
       category: "Web Frameworks",
-      description: "Java-based enterprise applications",
+      description:
+          "Used for developing Java-based enterprise applications",
       icon: "/icons/spring.png",
     },
     {
       name: "Express",
       category: "Web Frameworks",
-      description: "Node.js web applications and APIs",
+      description: "Used for building Node.js web applications and APIs",
       icon: "/icons/express.png",
     },
     {
       name: "Flask",
       category: "Web Frameworks",
-      description: "Python web development",
+      description: "Used for Python web development",
       icon: "/icons/flask.png",
     },
   ],
@@ -159,7 +165,10 @@ function MotionTracker() {
   }
 
   return (
-      <div className="relative h-[50vh] overflow-hidden" onMouseMove={handleMouseMove}>
+      <div
+          className="relative h-[50vh] overflow-hidden"
+          onMouseMove={handleMouseMove}
+      >
         <motion.div
             className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-blue-500/20"
             style={{
