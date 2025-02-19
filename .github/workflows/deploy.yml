@@ -33,9 +33,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build and Export
+      - name: Build
         run: |
-          npm run build && npm run export
+          npm run build
 
       - name: Create 404 Page
         run: cp out/index.html out/404.html
