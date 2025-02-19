@@ -11,7 +11,7 @@ const experiences = [
     period: "February 2025 - Present",
     description:
       "Working on cloud architecture and infrastructure projects, contributing to the development of scalable and efficient solutions for enterprise-level applications.",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JpmcLogo-SsAqOZouOXBBsVlCeu93pSp5kw4m4c.png",
+    logo: "/icons/jpmc.png",
   },
   {
     title: "Software Engineering Intern",
@@ -20,7 +20,7 @@ const experiences = [
     period: "June 2024 - August 2024",
     description:
       "Worked on a cloud architecture team to consult and assist with application migrations to Public Cloud, and contributed to a Product as a Platform infrastructure automation tool for hundreds of product teams.",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JpmcLogo-SsAqOZouOXBBsVlCeu93pSp5kw4m4c.png",
+    logo: "/icons/jpmc.png",
   },
   {
     title: "Software Engineering Intern",
@@ -29,7 +29,7 @@ const experiences = [
     period: "May 2023 - August 2023",
     description:
       "Developed full stack applications in an AWS environment, deployed on Amazon Web Services, and wrote microservices to manage databases and web applications.",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JpmcLogo-SsAqOZouOXBBsVlCeu93pSp5kw4m4c.png",
+    logo: "/icons/jpmc.png",
   },
   {
     title: "Applications Engineer Intern",
@@ -37,7 +37,7 @@ const experiences = [
     period: "May 2022 - August 2022",
     description:
       "Created and debugged vehicle network solutions using C#, Python, and proprietary languages for Fortune 500 companies and major conferences.",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IntrepidCS-U7lksZnH600JtIEiYJogPCCUtrBdjb.png",
+    logo: "/icons/intrepics.png",
   },
 ]
 

@@ -21,37 +21,37 @@ const skills: Record<string, Skill[]> = {
       name: "Java",
       category: "Languages",
       description: "Enterprise application development and backend services",
-      icon: "/placeholder.svg",
+      icon: "/icons/java.png",
     },
     {
       name: "Python",
       category: "Languages",
       description: "Data processing and backend development",
-      icon: "/placeholder.svg",
+      icon: "/icons/python.png",
     },
     {
       name: "C/C++",
       category: "Languages",
       description: "Systems programming and performance-critical applications",
-      icon: "/placeholder.svg",
+      icon: "/icons/cpp.png",
     },
     {
       name: "JavaScript",
       category: "Languages",
       description: "Frontend and Node.js development",
-      icon: "/placeholder.svg",
+      icon: "/icons/js.png",
     },
     {
       name: "TypeScript",
       category: "Languages",
       description: "Type-safe JavaScript development",
-      icon: "/placeholder.svg",
+      icon: "/icons/ts.png",
     },
     {
       name: "Go",
       category: "Languages",
       description: "Cloud-native application development",
-      icon: "/placeholder.svg",
+      icon: "/icons/golang.png",
     },
   ],
   "Cloud & DevOps": [
@@ -59,49 +59,49 @@ const skills: Record<string, Skill[]> = {
       name: "Amazon Web Services",
       category: "Cloud",
       description: "Cloud infrastructure and services",
-      icon: "/placeholder.svg",
+      icon: "/icons/aws.png",
     },
     {
       name: "Google Cloud",
       category: "Cloud",
       description: "Cloud platform services",
-      icon: "/placeholder.svg",
+      icon: "/icons/gcp.png",
     },
     {
       name: "Azure",
       category: "Cloud",
       description: "Microsoft cloud services",
-      icon: "/placeholder.svg",
-    },
-    {
-      name: "Terraform",
-      category: "DevOps",
-      description: "Infrastructure as Code",
-      icon: "/placeholder.svg",
-    },
-    {
-      name: "Jenkins",
-      category: "DevOps",
-      description: "Continuous Integration/Deployment",
-      icon: "/placeholder.svg",
-    },
-    {
-      name: "Splunk",
-      category: "DevOps",
-      description: "Log monitoring and analysis",
-      icon: "/placeholder.svg",
+      icon: "/icons/azure.png",
     },
     {
       name: "Kubernetes",
       category: "DevOps",
       description: "Container orchestration",
-      icon: "/placeholder.svg",
+      icon: "/icons/kubernetes.png",
     },
     {
       name: "Docker",
       category: "DevOps",
       description: "Container platform",
-      icon: "/placeholder.svg",
+      icon: "/icons/docker.png",
+    },
+    {
+      name: "Terraform",
+      category: "DevOps",
+      description: "Infrastructure as Code",
+      icon: "/icons/terraform.png",
+    },
+    {
+      name: "Jenkins",
+      category: "DevOps",
+      description: "Continuous Integration/Deployment",
+      icon: "/icons/jenkins.png",
+    },
+    {
+      name: "Splunk",
+      category: "DevOps",
+      description: "Log monitoring and analysis",
+      icon: "/icons/splunk.png",
     },
   ],
   "Web Frameworks": [
@@ -109,31 +109,31 @@ const skills: Record<string, Skill[]> = {
       name: "React",
       category: "Web Frameworks",
       description: "Building modern user interfaces",
-      icon: "/placeholder.svg",
+      icon: "/icons/react.png",
     },
     {
       name: "Next.js",
       category: "Web Frameworks",
       description: "React framework for production-grade applications",
-      icon: "/placeholder.svg",
+      icon: "/icons/nextjs.png",
     },
     {
       name: "Spring",
       category: "Web Frameworks",
       description: "Java-based enterprise applications",
-      icon: "/placeholder.svg",
+      icon: "/icons/spring.png",
     },
     {
       name: "Express",
       category: "Web Frameworks",
       description: "Node.js web applications and APIs",
-      icon: "/placeholder.svg",
+      icon: "/icons/express.png",
     },
     {
       name: "Flask",
       category: "Web Frameworks",
       description: "Python web development",
-      icon: "/placeholder.svg",
+      icon: "/icons/flask.png",
     },
   ],
 }
@@ -186,13 +186,13 @@ function SkillsSection() {
             <h3 className="text-lg font-semibold mb-4">{category}</h3>
             <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
               {categorySkills.map((skill) => (
-                <TooltipProvider key={skill.name}>
+                <TooltipProvider key={skill.name} delayDuration={0}>
                   <Tooltip>
                     <TooltipTrigger asChild>
-                      <Card className="p-2 hover:bg-accent transition-colors cursor-pointer">
+                      <Card className="p-2 hover:bg-accent transition-colors">
                         <div className="flex flex-col items-center gap-1">
                           <Image
-                            src={skill.icon || "/placeholder.svg"}
+                            src={skill.icon || "/icons/.png"}
                             alt={skill.name}
                             width={32}
                             height={32}

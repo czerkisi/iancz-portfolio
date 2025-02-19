@@ -11,7 +11,7 @@ export default function EducationPage() {
         <div className="md:grid md:grid-cols-3 md:gap-8">
           <div className="relative h-64 md:h-full flex items-center justify-center bg-white p-4">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MsoeLogo-AEtkDoS5KvynUrOKBj6c8C0jGreIGy.png"
+              src="/icons/msoe.png"
               alt="MSOE Logo"
               width={200}
               height={200}
