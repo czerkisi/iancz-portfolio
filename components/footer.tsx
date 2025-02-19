@@ -27,10 +27,10 @@ export function Footer() {
             <Linkedin className="h-5 w-5" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link href="mailto:ian.se.inbound@proton.me" className="text-muted-foreground hover:text-foreground">
+          <a href="mailto:ian.se.inbound@proton.me" className="text-muted-foreground hover:text-foreground">
             <Mail className="h-5 w-5" />
             <span className="sr-only">Email</span>
-          </Link>
+          </a>
         </div>
       </div>
     </footer>
