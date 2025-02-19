@@ -1,3 +1,5 @@
+"use client"
+
 import { motion, useMotionValue, useSpring } from "framer-motion"
 import type { MouseEvent } from "react"
 import Image from "next/image"
