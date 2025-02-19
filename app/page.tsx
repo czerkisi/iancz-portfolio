@@ -1,5 +1,3 @@
-"use client"
-
 import { motion, useMotionValue, useSpring } from "framer-motion"
 import type { MouseEvent } from "react"
 import Image from "next/image"
@@ -26,38 +24,38 @@ const skills: Record<string, Skill[]> = {
       name: "Java",
       category: "Languages",
       description:
-          "Used for enterprise application development and backend services",
+          "enterprise application development and backend services",
       icon: "/icons/java.png",
     },
     {
       name: "Python",
       category: "Languages",
-      description: "Used for data processing and backend development",
+      description: "data processing and backend development",
       icon: "/icons/python.png",
     },
     {
       name: "C/C++",
       category: "Languages",
       description:
-          "Used for systems programming and performance-critical applications",
+          "systems programming and performance-critical applications",
       icon: "/icons/cpp.png",
     },
     {
       name: "JavaScript",
       category: "Languages",
-      description: "Used for frontend and Node.js development",
+      description: "frontend and Node.js development",
       icon: "/icons/js.png",
     },
     {
       name: "TypeScript",
       category: "Languages",
-      description: "Used for type-safe JavaScript development",
+      description: "type-safe JavaScript development",
       icon: "/icons/ts.png",
     },
     {
       name: "Go",
       category: "Languages",
-      description: "Used for cloud-native application development",
+      description: "cloud-native application development",
       icon: "/icons/golang.png",
     },
   ],
@@ -66,50 +64,50 @@ const skills: Record<string, Skill[]> = {
       name: "Amazon Web Services",
       category: "Cloud",
       description:
-          "Used for cloud infrastructure and services",
+          "cloud infrastructure and services",
       icon: "/icons/aws.png",
     },
     {
       name: "Google Cloud",
       category: "Cloud",
-      description: "Used for cloud platform services",
+      description: "cloud platform services",
       icon: "/icons/gcp.png",
     },
     {
       name: "Azure",
       category: "Cloud",
-      description: "Used for Microsoft cloud services",
+      description: "Microsoft cloud services",
       icon: "/icons/azure.png",
     },
     {
       name: "Kubernetes",
       category: "DevOps",
-      description: "Used for container orchestration",
+      description: "container orchestration",
       icon: "/icons/kubernetes.png",
     },
     {
       name: "Docker",
       category: "DevOps",
-      description: "Used for containerization",
+      description: "containerization",
       icon: "/icons/docker.png",
     },
     {
       name: "Terraform",
       category: "DevOps",
-      description: "Used for Infrastructure as Code",
+      description: "Infrastructure as Code",
       icon: "/icons/terraform.png",
     },
     {
       name: "Jenkins",
       category: "DevOps",
       description:
-          "Used for continuous integration and deployment",
+          "continuous integration and deployment",
       icon: "/icons/jenkins.png",
     },
     {
       name: "Splunk",
       category: "DevOps",
-      description: "Used for log monitoring and analysis",
+      description: "log monitoring and analysis",
       icon: "/icons/splunk.png",
     },
   ],
@@ -117,33 +115,33 @@ const skills: Record<string, Skill[]> = {
     {
       name: "React",
       category: "Web Frameworks",
-      description: "Used for building modern user interfaces",
+      description: "building modern user interfaces",
       icon: "/icons/react.png",
     },
     {
       name: "Next.js",
       category: "Web Frameworks",
       description:
-          "Used for production-grade React applications",
+          "production-grade React applications",
       icon: "/icons/nextjs.png",
     },
     {
       name: "Spring",
       category: "Web Frameworks",
       description:
-          "Used for developing Java-based enterprise applications",
+          "developing Java-based enterprise applications",
       icon: "/icons/spring.png",
     },
     {
       name: "Express",
       category: "Web Frameworks",
-      description: "Used for building Node.js web applications and APIs",
+      description: "building Node.js web applications and APIs",
       icon: "/icons/express.png",
     },
     {
       name: "Flask",
       category: "Web Frameworks",
-      description: "Used for Python web development",
+      description: "Python web development",
       icon: "/icons/flask.png",
     },
   ],
