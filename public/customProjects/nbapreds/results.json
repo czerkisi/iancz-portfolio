@@ -1345,7 +1345,7 @@
         "bet_rec": "Orlando Magic",
         "bet_amount": 0,
         "polymarket_win_percentage": 0.475,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-02-20",
@@ -1354,7 +1354,7 @@
         "bet_rec": "Brooklyn Nets",
         "bet_amount": 0,
         "polymarket_win_percentage": 0.145,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-02-20",
@@ -1363,7 +1363,7 @@
         "bet_rec": "Portland Trail Blazers",
         "bet_amount": 0,
         "polymarket_win_percentage": 0.4,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-02-20",
@@ -1371,8 +1371,8 @@
         "away_team": "Los Angeles Clippers",
         "bet_rec": "Los Angeles Clippers",
         "bet_amount": 0.053,
-        "polymarket_win_percentage": 0.49,
-        "result": null
+        "polymarket_win_percentage": 0.485,
+        "result": "W"
     },
     {
         "date": "2025-02-20",
@@ -1381,7 +1381,7 @@
         "bet_rec": "New York Knicks",
         "bet_amount": 0.452,
         "polymarket_win_percentage": 0.845,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-02-20",
@@ -1390,7 +1390,7 @@
         "bet_rec": "Phoenix Suns",
         "bet_amount": 0,
         "polymarket_win_percentage": 0.45,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-02-20",
@@ -1399,7 +1399,7 @@
         "bet_rec": "Memphis Grizzlies",
         "bet_amount": 0,
         "polymarket_win_percentage": 0.435,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-02-20",
@@ -1408,7 +1408,7 @@
         "bet_rec": "Denver Nuggets",
         "bet_amount": 0.772,
         "polymarket_win_percentage": 0.895,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-02-20",
@@ -1417,6 +1417,87 @@
         "bet_rec": "Boston Celtics",
         "bet_amount": 0,
         "polymarket_win_percentage": 0.265,
+        "result": "L"
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Washington Wizards",
+        "away_team": "Milwaukee Bucks",
+        "bet_rec": "Milwaukee Bucks",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.325,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Houston Rockets",
+        "away_team": "Minnesota Timberwolves",
+        "bet_rec": "Houston Rockets",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.605,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Sacramento Kings",
+        "away_team": "Golden State Warriors",
+        "bet_rec": "Sacramento Kings",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.435,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Toronto Raptors",
+        "away_team": "Miami Heat",
+        "bet_rec": "Miami Heat",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.43,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Dallas Mavericks",
+        "away_team": "New Orleans Pelicans",
+        "bet_rec": "Dallas Mavericks",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.66,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "San Antonio Spurs",
+        "away_team": "Detroit Pistons",
+        "bet_rec": "Detroit Pistons",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.385,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Orlando Magic",
+        "away_team": "Memphis Grizzlies",
+        "bet_rec": "Orlando Magic",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.405,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Cleveland Cavaliers",
+        "away_team": "New York Knicks",
+        "bet_rec": "Cleveland Cavaliers",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.745,
+        "result": null
+    },
+    {
+        "date": "2025-02-21",
+        "home_team": "Utah Jazz",
+        "away_team": "Oklahoma City Thunder",
+        "bet_rec": "Oklahoma City Thunder",
+        "bet_amount": 1,
+        "polymarket_win_percentage": 0.115,
         "result": null
     }
 ]
