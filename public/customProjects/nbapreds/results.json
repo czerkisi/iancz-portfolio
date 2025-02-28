@@ -1333,7 +1333,7 @@
         "date": "2025-02-19",
         "home_team": "Los Angeles Lakers",
         "away_team": "Charlotte Hornets",
-        "bet_rec": "home",
+        "bet_rec": "Los Angeles Lakers",
         "market_home_win_pct": 0.855,
         "result": "L"
     },
@@ -1872,41 +1872,41 @@
         "date": "2025-02-27",
         "home_team": "Orlando Magic",
         "away_team": "Golden State Warriors",
-        "predicted_home_win_pct": 0.572,
-        "market_home_win_pct": 0.335,
+        "predicted_home_win_pct": 0.574,
+        "market_home_win_pct": 0.36,
         "bet_rec": "Orlando Magic",
-        "bet_size": 0.357,
-        "result": null
+        "bet_size": 0.334,
+        "result": "L"
     },
     {
         "date": "2025-02-27",
         "home_team": "Dallas Mavericks",
         "away_team": "Charlotte Hornets",
-        "predicted_home_win_pct": 0.608,
-        "market_home_win_pct": 0.8,
+        "predicted_home_win_pct": 0.607,
+        "market_home_win_pct": 0.775,
         "bet_rec": "Dallas Mavericks",
         "bet_size": 0.0,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-02-27",
         "home_team": "Milwaukee Bucks",
         "away_team": "Denver Nuggets",
-        "predicted_home_win_pct": 0.352,
-        "market_home_win_pct": 0.395,
+        "predicted_home_win_pct": 0.355,
+        "market_home_win_pct": 0.405,
         "bet_rec": "Denver Nuggets",
-        "bet_size": 0.109,
-        "result": null
+        "bet_size": 0.124,
+        "result": "W"
     },
     {
         "date": "2025-02-27",
         "home_team": "Phoenix Suns",
         "away_team": "New Orleans Pelicans",
         "predicted_home_win_pct": 0.69,
-        "market_home_win_pct": 0.735,
+        "market_home_win_pct": 0.725,
         "bet_rec": "Phoenix Suns",
         "bet_size": 0.0,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-02-27",
@@ -1916,6 +1916,106 @@
         "market_home_win_pct": 0.685,
         "bet_rec": "Los Angeles Lakers",
         "bet_size": 0.003,
+        "result": "W"
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Los Angeles Lakers",
+        "away_team": "Los Angeles Clippers",
+        "predicted_home_win_pct": 0.7,
+        "market_home_win_pct": 0.395,
+        "bet_rec": "Los Angeles Lakers",
+        "bet_size": 0.505,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Brooklyn Nets",
+        "away_team": "Portland Trail Blazers",
+        "predicted_home_win_pct": 0.601,
+        "market_home_win_pct": 0.475,
+        "bet_rec": "Brooklyn Nets",
+        "bet_size": 0.239,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Utah Jazz",
+        "away_team": "Minnesota Timberwolves",
+        "predicted_home_win_pct": 0.436,
+        "market_home_win_pct": 0.435,
+        "bet_rec": "Minnesota Timberwolves",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Detroit Pistons",
+        "away_team": "Denver Nuggets",
+        "predicted_home_win_pct": 0.615,
+        "market_home_win_pct": 0.525,
+        "bet_rec": "Detroit Pistons",
+        "bet_size": 0.19,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Chicago Bulls",
+        "away_team": "Toronto Raptors",
+        "predicted_home_win_pct": 0.387,
+        "market_home_win_pct": 0.525,
+        "bet_rec": "Toronto Raptors",
+        "bet_size": 0.263,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Miami Heat",
+        "away_team": "Indiana Pacers",
+        "predicted_home_win_pct": 0.474,
+        "market_home_win_pct": 0.37,
+        "bet_rec": "Indiana Pacers",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Phoenix Suns",
+        "away_team": "New Orleans Pelicans",
+        "predicted_home_win_pct": 0.689,
+        "market_home_win_pct": 0.715,
+        "bet_rec": "Phoenix Suns",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Boston Celtics",
+        "away_team": "Cleveland Cavaliers",
+        "predicted_home_win_pct": 0.553,
+        "market_home_win_pct": 0.55,
+        "bet_rec": "Boston Celtics",
+        "bet_size": 0.006,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Atlanta Hawks",
+        "away_team": "Oklahoma City Thunder",
+        "predicted_home_win_pct": 0.366,
+        "market_home_win_pct": 0.165,
+        "bet_rec": "Oklahoma City Thunder",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-02-28",
+        "home_team": "Memphis Grizzlies",
+        "away_team": "New York Knicks",
+        "predicted_home_win_pct": 0.558,
+        "market_home_win_pct": 0.615,
+        "bet_rec": "Memphis Grizzlies",
+        "bet_size": 0.0,
         "result": null
     }
 ]
