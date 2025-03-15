@@ -2396,7 +2396,7 @@
         "market_home_win_pct": 0.255,
         "bet_rec": "Boston Celtics",
         "bet_size": 0.0,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-03-14",
@@ -2406,7 +2406,7 @@
         "market_home_win_pct": 0.145,
         "bet_rec": "Philadelphia 76ers",
         "bet_size": 0.495,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-03-14",
@@ -2416,7 +2416,7 @@
         "market_home_win_pct": 0.585,
         "bet_rec": "Phoenix Suns",
         "bet_size": 0.0,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-03-14",
@@ -2426,7 +2426,7 @@
         "market_home_win_pct": 0.565,
         "bet_rec": "San Antonio Spurs",
         "bet_size": 0.232,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-03-14",
@@ -2436,7 +2436,7 @@
         "market_home_win_pct": 0.875,
         "bet_rec": "Denver Nuggets",
         "bet_size": 0.0,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-03-14",
@@ -2446,7 +2446,7 @@
         "market_home_win_pct": 0.805,
         "bet_rec": "Minnesota Timberwolves",
         "bet_size": 0.0,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-03-14",
@@ -2456,7 +2456,7 @@
         "market_home_win_pct": 0.445,
         "bet_rec": "Cleveland Cavaliers",
         "bet_size": 0.0,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-03-14",
@@ -2466,7 +2466,7 @@
         "market_home_win_pct": 0.375,
         "bet_rec": "Atlanta Hawks",
         "bet_size": 0.452,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-03-14",
@@ -2476,7 +2476,7 @@
         "market_home_win_pct": 0.55,
         "bet_rec": "Utah Jazz",
         "bet_size": 0.341,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-03-14",
@@ -2486,6 +2486,86 @@
         "market_home_win_pct": 0.845,
         "bet_rec": "Houston Rockets",
         "bet_size": 0.0,
+        "result": "W"
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "Golden State Warriors",
+        "away_team": "New York Knicks",
+        "predicted_home_win_pct": 0.657,
+        "market_home_win_pct": 0.705,
+        "bet_rec": "Golden State Warriors",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "San Antonio Spurs",
+        "away_team": "New Orleans Pelicans",
+        "predicted_home_win_pct": 0.721,
+        "market_home_win_pct": 0.355,
+        "bet_rec": "San Antonio Spurs",
+        "bet_size": 0.568,
+        "result": null
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "Detroit Pistons",
+        "away_team": "Oklahoma City Thunder",
+        "predicted_home_win_pct": 0.463,
+        "market_home_win_pct": 0.355,
+        "bet_rec": "Oklahoma City Thunder",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "Brooklyn Nets",
+        "away_team": "Boston Celtics",
+        "predicted_home_win_pct": 0.408,
+        "market_home_win_pct": 0.185,
+        "bet_rec": "Boston Celtics",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "Denver Nuggets",
+        "away_team": "Washington Wizards",
+        "predicted_home_win_pct": 0.662,
+        "market_home_win_pct": 0.845,
+        "bet_rec": "Denver Nuggets",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "Houston Rockets",
+        "away_team": "Chicago Bulls",
+        "predicted_home_win_pct": 0.748,
+        "market_home_win_pct": 0.755,
+        "bet_rec": "Houston Rockets",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "Memphis Grizzlies",
+        "away_team": "Miami Heat",
+        "predicted_home_win_pct": 0.77,
+        "market_home_win_pct": 0.735,
+        "bet_rec": "Memphis Grizzlies",
+        "bet_size": 0.132,
+        "result": null
+    },
+    {
+        "date": "2025-03-15",
+        "home_team": "Milwaukee Bucks",
+        "away_team": "Indiana Pacers",
+        "predicted_home_win_pct": 0.666,
+        "market_home_win_pct": 0.665,
+        "bet_rec": "Milwaukee Bucks",
+        "bet_size": 0.002,
         "result": null
     }
 ]
