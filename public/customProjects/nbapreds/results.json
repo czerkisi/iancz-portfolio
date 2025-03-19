@@ -2756,7 +2756,7 @@
         "market_home_win_pct": 0.395,
         "bet_rec": "Cleveland Cavaliers",
         "bet_size": 0.0,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-03-18",
@@ -2766,7 +2766,7 @@
         "market_home_win_pct": 0.305,
         "bet_rec": "Atlanta Hawks",
         "bet_size": 0.0,
-        "result": null
+        "result": "L"
     },
     {
         "date": "2025-03-18",
@@ -2776,7 +2776,7 @@
         "market_home_win_pct": 0.875,
         "bet_rec": "Boston Celtics",
         "bet_size": 0.0,
-        "result": null
+        "result": "W"
     },
     {
         "date": "2025-03-18",
@@ -2786,6 +2786,116 @@
         "market_home_win_pct": 0.415,
         "bet_rec": "Golden State Warriors",
         "bet_size": 0.446,
+        "result": "W"
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Miami Heat",
+        "away_team": "Detroit Pistons",
+        "predicted_home_win_pct": 0.448,
+        "market_home_win_pct": 0.375,
+        "bet_rec": "Detroit Pistons",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Los Angeles Lakers",
+        "away_team": "Denver Nuggets",
+        "predicted_home_win_pct": 0.521,
+        "market_home_win_pct": 0.455,
+        "bet_rec": "Los Angeles Lakers",
+        "bet_size": 0.121,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Portland Trail Blazers",
+        "away_team": "Memphis Grizzlies",
+        "predicted_home_win_pct": 0.488,
+        "market_home_win_pct": 0.375,
+        "bet_rec": "Memphis Grizzlies",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "San Antonio Spurs",
+        "away_team": "New York Knicks",
+        "predicted_home_win_pct": 0.544,
+        "market_home_win_pct": 0.245,
+        "bet_rec": "San Antonio Spurs",
+        "bet_size": 0.396,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Oklahoma City Thunder",
+        "away_team": "Philadelphia 76ers",
+        "predicted_home_win_pct": 0.649,
+        "market_home_win_pct": 0.825,
+        "bet_rec": "Oklahoma City Thunder",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Orlando Magic",
+        "away_team": "Houston Rockets",
+        "predicted_home_win_pct": 0.675,
+        "market_home_win_pct": 0.45,
+        "bet_rec": "Orlando Magic",
+        "bet_size": 0.409,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Utah Jazz",
+        "away_team": "Washington Wizards",
+        "predicted_home_win_pct": 0.587,
+        "market_home_win_pct": 0.615,
+        "bet_rec": "Utah Jazz",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Minnesota Timberwolves",
+        "away_team": "New Orleans Pelicans",
+        "predicted_home_win_pct": 0.764,
+        "market_home_win_pct": 0.865,
+        "bet_rec": "Minnesota Timberwolves",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Indiana Pacers",
+        "away_team": "Dallas Mavericks",
+        "predicted_home_win_pct": 0.624,
+        "market_home_win_pct": 0.805,
+        "bet_rec": "Indiana Pacers",
+        "bet_size": 0.0,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Phoenix Suns",
+        "away_team": "Chicago Bulls",
+        "predicted_home_win_pct": 0.709,
+        "market_home_win_pct": 0.675,
+        "bet_rec": "Phoenix Suns",
+        "bet_size": 0.103,
+        "result": null
+    },
+    {
+        "date": "2025-03-19",
+        "home_team": "Sacramento Kings",
+        "away_team": "Cleveland Cavaliers",
+        "predicted_home_win_pct": 0.478,
+        "market_home_win_pct": 0.345,
+        "bet_rec": "Cleveland Cavaliers",
+        "bet_size": 0.0,
         "result": null
     }
 ]
