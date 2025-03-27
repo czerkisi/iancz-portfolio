@@ -20,7 +20,7 @@ const projects = [
     {
         title: "Freelance Website Development",
         description:
-            "A modern, responsive website built to showcase freelance work and portfolio projects.",
+            "A modern, responsive website built to showcase freelance work and port folio projects.",
         image: "/images/webdev.png",
         link: "https://ryleighleon.com"
     },
