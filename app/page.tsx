@@ -184,7 +184,7 @@ function MotionTracker() {
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
               Software Engineer with a Strong Background in
               <br />
-              Infrastructure Platforms and Platform Engineering
+              Platform Engineering and Public Cloud
             </p>
           </div>
         </div>
